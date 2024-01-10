@@ -1,0 +1,86 @@
+body {
+    background-color: hsl(195, 53%, 79%);
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+/* This style applies to all */
+  *
+  {
+    color: #1853b3;
+  }
+
+  .sample-class
+  {
+    font-weight: bold;
+  }
+
+/* Apply to paragraphs with the class value */
+  p.sample-class
+  {
+    font-size: 40px;
+  }
+
+  #mydiv
+  {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  p,div{
+    background: rgb(255, 99, 71);
+  }
+
+/* Backgrounds Sample */
+
+  body {
+    background-image: url("../assets/pastel.jpg");
+  }
+
+/* Margin vs. Padding vs. Border */
+
+  #mydiv
+  {
+    padding: 20px;
+    margin: 10px;
+    border: solid 2px;
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    width: 300px;
+  }
+
+/* Attribute Selector */
+  [class^=sample]
+  {
+    font-style: oblique;
+    color: red;
+
+  }
+
+/* Pseudo Class & Transforms */
+
+  #mydiv:hover
+  {
+    transform: rotateX(150deg);
+  }
+
+  h2 
+  {
+    color: black;
+    border: solid black; 
+    min-height: 100px;
+    width: 300px;
+
+  }
+
+ h2:hover
+  {
+    
+    transform: rotate(20deg);
+  }
