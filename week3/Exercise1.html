@@ -2,18 +2,74 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title> Exercise 2 </title>
+  <title> Exercise 1 </title>
+
+  <style>
+    table, th, td {
+    border: 1px solid;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+</style> 
+<link rel="icon" href="images/coffee5.jpg">
 </head>
 <body>
-    <h1>#1</h1>
-    <p>Click the image to be redirected to the image source. </p>
+ 
+    <h3>Click the image to be redirected to the image source. </h3>
     <a href="table.jpg"><img src="table.jpg" alt="This is a table"></a>
 
-    <h1>#2</h1>
-    <p>Click the image to be redirected to CIIT Website. </p>
-    <a href="https://www.ciit.edu.ph/"><img src="table.jpg" alt="This is a table"></a>
-    <h1>#3</h1>
-    <p>Click the link to be redirected to a new tab. </p>
+
+    <h3>Click the link to be redirected to a new tab. </h3>
     <a href="https://www.ciit.edu.ph/" target="_blank"> CIIT Website </a>
+
+  <h3>Table</h3>
+    <table>
+      <tr>
+          <th>Area</th>
+          <th>Skill</th>
+      </tr>
+      <tr>
+          <td>Web Dev</td>
+          <td>Character Design</td>
+      </tr>
+          <tr>
+              <td>Programming</td>
+              <td>Art</td>
+          </tr>
+      </table>
+
+      <h3>Paragraph</h3>
+      <p style="background-color: aqua; width: 50%; height: 100px;">Hello World</p>
+
+      <h3>Div</h3>
+      <div style="background-color: tomato;">Welcome to CIIT</div>
+      <h3>Span</h3>
+        <span style="background-color: violet;">I love web programming!</span>
+        <span style="background-color: rgb(163, 70, 80);">I love web programming!</span>
+        <span style="background-color: rgb(120, 90, 100);">I love web programming!</span>
+        <form method="GET">
+
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" placeholder="Type your first Name..."><br>
+
+          <label for="passwd">Password:</label><br>
+          <input type="password" id="passwd" name="passwd" placeholder="Type your password..."><br>
+
+          <label for="eml">Email:</label><br>
+          <input type="email" id="eml" name="eml" placeholder="Type your email.."><br>
+
+          <label for="age">Age:</label><br>
+          <input type="number" id="age" name="age" placeholder="Type your age..." min="0"><br>
+
+          <label for="date">Date:</label><br>
+          <input type="datetime-local" id="date" name="date"><br>
+          <br>
+          <br>
+          <input type="submit" value="Submit"><br>
+
+      </form>
+
 </body>
 </html>
